@@ -23,6 +23,11 @@ const enable_auth = process.env.REACT_APP_ENABLE_AUTH!;
 const enable_guest = process.env.REACT_APP_ENABLE_GUEST!;
 const enable_tokens = process.env.REACT_APP_ENABLE_ACCESSTOKENS!;
 
+console.log(indexId);
+console.log(region);
+console.log(role_arn);
+console.log(enable_auth)
+
 interface AppState {
   infraReady: boolean;
   loginScreen: boolean;
